@@ -1,0 +1,305 @@
+
+<!doctype html>
+<html>
+
+
+<head>
+  <title> Aujourd'hui? C'est Jardi! </title>
+  <meta charset=" utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=5.0, minimum-scale=0.86" /> 
+  <link rel="stylesheet" href="jardi.css">
+  <link rel="shortcut icon" href="favicon.ico">
+<!------------ ici relier Bootstrap: link + 3 scripts  !! NE PAS OUBLIER LES JAVASCRIPT EN FIN DE FICHIER AVANT /BODY---------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+</head>
+
+<body class="body">
+
+<header id="header"> 
+
+ 
+  
+    
+      <div> 
+        <h1 class="titulo"> <div  class="centrercol">Aujourd'hui ? </div> &emsp;
+          
+          <div class="overlay-image">
+            <a>
+               <img class="image" src="/images/logo.png"/>
+               <div class="text"> C'est Jardi' ! </div>
+            </a>   
+          </div> 
+
+          &emsp; <div class="centrercol" > C'est Jardi' ! </div>
+        </h1>  
+
+          
+           <ul>
+                <li><a href="/catalogueJardin.html.html">Plants</a></li>
+                <li><a href="/catalogueJardin.html.html">Matériel</a></li>
+                <li><a href="/catalogueJardin.html.html">Mobilier</a></li>
+           </ul>
+      </div>   
+
+      <div class="form-group">
+        <button type="submit" name="envoi" class="btn btn-primary btn-block"  style="width: 5.5rem; height: 5rem; margin-top: 1rem;; "><img src="images/compte.png" style="width: 3rem">
+          <div class="caption">
+              <p style="font-size:x-small; ">Mon compte</p>
+          </div> 
+        </button>
+      </div>  
+
+</header>
+
+
+<section1 id="section1">
+
+<div  class="container" >
+  <h1>Vos plants</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Vos légumes</div>
+<!--------------------ici //// DEBUT //// carousel inclus dans la card bootstrap ---------------------->
+      <div class='card-body carousel slide' data-ride="carousel">
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+            <img class="img-fluid" src="/images/artichaud.jpg" alt="slide1" >
+           </div>
+
+           <div class="carousel-item">
+            <img class="img-fluid" src="/images/cossePpois.jpg" alt="slide2" >
+           </div>
+
+           <div class="carousel-item">
+            <img class="img-fluid" src="/images/tomates.jpg" alt="slide3" >
+           </div>
+        </div>      
+      </div>
+<!--------------------ici //// FIN //// carousel inclus dans la card bootstrap ---------------------->
+      <div class="card-footer">Calendrier</div>
+  </div>
+</div>
+
+
+<div  class="container" >
+  <h1>Vos plants</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Vos fruits</div>
+    <div class='card-body carousel slide' data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="img-fluid" src="/images/mirabelles.jpg" alt="slide1" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/fraisier.jpg" alt="slide2" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/pommes.jpg" alt="slide3" >
+         </div>
+      </div>      
+    </div>
+      <div class="card-footer">Calendrier</div>
+  </div>
+</div>
+
+
+<div  class="container" >
+  <h1>Vos plants</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Vos fleurs</div>
+      <div class='card-body carousel slide' data-ride="carousel">
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+            <img class="img-fluid" src="/images/fleurNénuphar.jpg" alt="slide1" >
+           </div>
+
+           <div class="carousel-item">
+            <img class="img-fluid" src="/images/fleursBleues.jpg" alt="slide2" >
+           </div>
+
+           <div class="carousel-item">
+            <img class="img-fluid" src="/images//tulipesBlancRouge.jpg" alt="slide3" >
+           </div>
+        </div>      
+      </div>
+      <div class="card-footer">Calendrier</div>
+  </div>
+</div>
+
+</section1>
+
+
+
+<section2 id="section2">
+
+<div class="container">
+  <h1>Votre matériel</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Vos outils au jardin</div>
+     <div class='card-body carousel slide' data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="img-fluid" src="/images//arrosoirLonguePortee.jpg" alt="slide1" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/outils1.jpg" alt="slide2" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/brouette.jpg" alt="slide3" >
+         </div>
+      </div>      
+    </div>
+      <div class="card-footer">Les essentiels</div>
+  </div>
+</div>
+
+<div class="container" >
+  <h1>Votre matériel</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Vos outils d'entretien </div>
+  <div class='card-body carousel slide' data-ride="carousel">
+    <div class="carousel-inner">
+       <div class="carousel-item active">
+        <img class="img-fluid" src="/images/composteur.jpg" alt="slide1" >
+       </div>
+
+       <div class="carousel-item">
+        <img class="img-fluid" src="/images/tondeuseAutonome.jpg" alt="slide2" >
+       </div>
+
+       <div class="carousel-item">
+        <img class="img-fluid" src="/images/TuyauArrosageFlexible.jpg" alt="slide3" >
+       </div>
+    </div>      
+  </div>
+      <div class="card-footer">Les essentiels</div>
+  </div>
+</div>
+
+<div class="container" >
+  <h1>Votre matériel</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Vos accessoires</div>
+     <div class='card-body carousel slide' data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="img-fluid" src="/images/gants1.jpg" alt="slide1" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/chapeau1.jpg" alt="slide2" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/cabaneInsectes.jpg" alt="slide3" >
+         </div>
+      </div>      
+    </div>
+      <div class="card-footer">Les essentiels</div>
+  </div>
+</div>
+
+</section2>
+
+
+<section3 id="section3">
+
+<div class="container">
+  <h1>Votre mobilier</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Votre mobilier de jardinage</div>
+      <div class='card-body carousel slide' data-ride="carousel">
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+            <img class="img-fluid" src="/images/composteur.jpg" alt="slide1" >
+           </div>
+
+           <div class="carousel-item">
+            <img class="img-fluid" src="/images/tondeuseAutonome.jpg" alt="slide2" >
+           </div>
+
+           <div class="carousel-item">
+            <img class="img-fluid" src="/images/TuyauArrosageFlexible.jpg" alt="slide3" >
+           </div>
+        </div>      
+      </div>
+      <div class="card-footer">Astuces pratiques</div>
+    </div>  
+  </div>
+</div>
+
+<div class="container">
+  <h1>Votre mobilier</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Votre mobilier extérieur</div>
+    <div class='card-body carousel slide' data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="img-fluid" src="/images/bbqs.jpg" alt="slide1" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/mobilierHamac1.jpg" alt="slide2" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/mobilierJardin5.jpg" alt="slide3" >
+         </div>
+      </div>      
+    </div>
+      <div class="card-footer">Idées loisirs</div>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Votre mobilier</h1>
+  <div class="card" style="width: 20rem;">
+      <div class="card-header">Votre mobilier intérieur</div>
+     <div class='card-body carousel slide' data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="img-fluid" src="/images/astuceJardinSuspendu.jpg" alt="slide1" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/mobilierCoffre.jpg" alt="slide2" >
+         </div>
+
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/mobilierJardin1.png" alt="slide3" >
+         </div>
+      </div>      
+    </div>
+      <div class="card-footer">Idées détente</div>
+  </div>
+</div>
+
+</section3>
+
+
+
+
+<footer id="footer">
+  <div>
+    <ul>
+        <li><a href="/catalogueJardin.html.html">Catégories</a></li>
+        <li><a href="/catalogueJardin.html.html">Services</a></li>
+        <li><a href="/catalogueJardin.html.html">Blog</a></li>
+        <li><a href="/catalogueJardin.html.html">Newsletter</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+
+</body>
+
+</html> 

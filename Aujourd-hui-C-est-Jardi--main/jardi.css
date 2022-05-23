@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0; 
+}
+.body{  
+    background-image: url(/images/plantsChoux.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    z-index: 10;
+    position: sticky;
+    background: linear-gradient( rgb(240, 226, 149), white  );
+}
+/* Conteneur */
+.overlay-image {
+    position: relative;
+    width: 18%;
+}   
+   /* Image */
+.overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}   
+   /* Texte */
+.overlay-image .text {
+    position: absolute;
+    color: chartreuse;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top:77%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#header ul{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.titulo{
+    display: inline-flex;
+    margin-top:3%;
+    margin-bottom:3%;
+    margin-left: -10%;
+    font-size: 70px;
+    font-weight: bolder;
+    color: chocolate;  
+}
+.form-group button{
+ 
+}
+.form-group button, .form-group button:hover{
+background-color: darkgreen;
+}
+.form-group button:active, .form-group button:focus{
+    background-color: greenyellow;
+    }
+#header ul li{
+    list-style: none; 
+    display:inline-block;
+    cursor: pointer;
+    padding:10px;
+    border: 2px solid yellow;   
+    background-color: chartreuse;
+    font-weight: bolder;
+    margin-right: 7%;
+    border-radius: 50%;
+    width: 15%; 
+    text-align: center;
+}
+#header ul li:hover{
+    transform:scale(1.10); 
+}
+ul li a{
+    color: darkgreen;
+    text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: chocolate;
+}
+.centrercol{
+    margin-top: 5%;
+}
+#section1, #section2, #section3{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.container{
+    margin-top: 20%;
+    padding-top: 7%;
+}
+.container .card{ 
+    height:80%;
+    margin-left: 18%;
+    margin-top: 5%;
+    color: darkgreen;
+    border:2px solid darkgreen;
+    font-weight: bolder;
+}
+.container .card-header, .container .card-footer{
+    background-color:chartreuse;
+}
+#section1 h1{
+    color:orange;
+    font-weight: bolder;
+    width:fit-content;
+    margin-left: 150px;
+}
+#section2 h1{
+    color:orange;
+    font-weight: bolder;
+    width:fit-content;
+    margin-left: 110px;
+}
+#section3 h1{
+    color:orange;
+    font-weight: bolder;
+    width:fit-content;
+    margin-left: 100px;
+}
+#footer{
+    background: linear-gradient( rgb(240, 226, 149), white  );
+    text-align: center;
+    margin-top: 10%;
+    padding-top:5% ;
+    padding-bottom: 5%;
+}
+#footer ul li{
+        list-style: none; 
+        display:inline-block;
+        cursor: pointer;
+        padding:10px;
+        border: 2px solid yellow;   
+        background-color: chartreuse;
+        font-weight: bolder;
+        margin-right: 7%;
+        border-radius: 50%;
+        width: 15%; 
+        text-align: center;
+}
+#footer ul li:hover{
+    transform:scale(1.10);
+ }
