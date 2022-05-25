@@ -1,4 +1,13 @@
-<?php?>
+<?php
+/* se connecter à la BDD    */
+try {
+    $BDD=new PDO("mysql:host=localhost;dbname=jardin;charset=utf8", "root" );
+}
+catch (PDOException $e) {
+    echo "erreur :" . $e->getMessage();
+}
+?>
+
 <!doctype html>
 <html>
 
