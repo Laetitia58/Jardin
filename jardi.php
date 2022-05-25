@@ -1,3 +1,4 @@
+<?php?>
 <!doctype html>
 <html>
 
@@ -21,11 +22,12 @@
 <div class="ligne1">
 
 <div class="loupe1">
-<input placeholder="Que cherchez-vous?">loupe
+  <input type="search" placeholder="Que recherchez-vous?">  
+  <button><img src="images/loupe.PNG" style="width:1rem"></button>
 </div>
 
 <div class="caddie">
-   caddie commande
+   <img src="images/caddie.PNG" style="width: 2.5rem">
 </div>
 
 <div class="moncompte">
@@ -47,7 +49,18 @@
     </div>
   </h1>  
 
-<div>Aujourd'hui ? C'est promo ! cadre pour images carousel</div>
+<div id="promo">
+Aujourd'hui ? C'est promo !  // UTILISER EVENT ONCLICK JAVASCRIPT POUR CHANGER D IMAGE AU CLICK
+OU UTILISER UNE GALERIE CSS??? SI PAS TROP GROS??? ---> TENTER PLACER NAVIGATEUR A DROITE CADRE)
+
+       <a href="/jardi.htlm/images/fraisier.jpg"><img src="/images/mirabelles.jpg" style="width: 15rem ; height:15rem"></a>
+        
+        
+       <a href="jardin/jardi.htlm/jardi.htlm/images/pommes.jpg"><img src="/images/fraisier.jpg" style="width: 15rem ; height:15rem"></a>
+        
+       
+       <a href="jardin/jardi.htlm/images/mirabelles.jpg"><img src="/images/pommes.jpg" style="width: 15rem ; height:15rem"></a>
+      
 </div>  
         <ul>
             <li><a href="/catalogueJardin.html.html"> Vos plants </a></li>
@@ -109,7 +122,7 @@
 <div class="container">  
   <h1>Vos plants</h1>
   <div class="card" style="width: 20rem;">
-      <div class="card-header">Vos fleurs</div> <div style="color:red; font-weight: bolder; font-style: oblique; font-size: x-large;">promo !</div>
+      <div class="card-header">Vos fleurs</div>
       <div class="card-body carousel slide" data-ride="carousel">
         <div class="carousel-inner">
            <div class="carousel-item">
