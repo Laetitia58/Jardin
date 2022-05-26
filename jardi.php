@@ -1,7 +1,13 @@
 <?php
 /* se connecter à la BDD    */
+
+$servname = "localhost";
+$user = "root";
+$pass = "";
+$dbname = "Jardin";
+
 try {
-    $BDD=new PDO("mysql:host=localhost;dbname=jardin;charset=utf8", "root" );
+    $BDD=new PDO("mysql:host=localhost;dbname=Jardin;charset=utf8", "root" );
 }
 catch (PDOException $e) {
     echo "erreur :" . $e->getMessage();
