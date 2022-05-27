@@ -3,13 +3,6 @@
     margin: 0;
     padding:0; 
 }
-.body{  
-    background-image: url(/images/plantsChoux.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed; 
-    border:1px solid darkgreen;
-}
 #header .ligne1{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -136,104 +129,23 @@ margin-top: 2%;
 #header ul li a:hover{
 color: chocolate;
 }
-#section1, #section2, #section3{
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.container{
-    margin-top: 20%;
-    padding-top: 7%;   
-}
-.container .card{ 
-    height:80%;
-    margin-left: 18%;
-    margin-top: 5%;
-    color: darkgreen;
-    border:2px solid darkgreen;
-    font-weight: bolder;
-}
-.container .card-header, .container .card-footer{
-    background-color:chartreuse;
-}
-#section1 h1{
-    color:orange;
-    font-weight: bolder;
-    width:fit-content;
-    margin-left: 150px;
-}
-#section2 h1{
-    color:orange;
-    font-weight: bolder;
-    width:fit-content;
-    margin-left: 110px;
 
+.blog1, .blog2, .blog3{
+    border: 2px solid darkgreen;
+    display: flex;
+    background-color: azure;
+    opacity:0.8;
+    border-top-left-radius:40% ;
+    border-bottom-left-radius:40%;
+    border-top-right-radius:3% ;
+    border-bottom-right-radius:3%;
+    margin-top:10%;
 }
-#section3 h1{
-    color:orange;
-    font-weight: bolder;
-    width:fit-content;
-    margin-left: 100px;
+.blog1 img, .blog2 img, .blog3 img{
+    border-top-left-radius:20% ;
+    border-bottom-left-radius:20%;
 }
-.article3{
-    margin-bottom: 200px;
-}
-#footer{
-    background: linear-gradient( rgb(240, 226, 149), white  );
-    padding-top: 4%;
-    padding-bottom: 4%;
-}
-.footer1 ul{
-    text-align: center;
-    padding-bottom: 4%;
-}
-#footer .footer1 li{
-    list-style: none; 
-    display:inline-block;
-    cursor: pointer;
-    padding:10px;
-    border: 2px solid yellow;   
-    background-color: chartreuse;
-    font-weight: bolder;
-    margin-right: 7%;
-    border-radius: 50%;
-    width: 15%; 
-    text-align: center;
-}
-.footer1 li:hover{
-    transform:scale(1.10); 
-}
-.footer1 ul li a{
-    color: darkgreen;
-    text-decoration: none;
-}
-#footer .footer1 ul li a:hover{
-    text-decoration: none;
-    color: chocolate;
-}
-.footer2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: left;
-    margin-left: 5%;
-}
-.footer2 a{
-    color: black;
-    text-decoration: none;
-}
-.footer2 a:hover{
-    background-color:darkorange ;
-    border-radius: 5px;
-}
-.footer2 img a:hover{
-    background-color:white;
-}
-.footer2 input:nth-child(1){
-    box-shadow: 2px 3px 2px chocolate;   
-}
-.footer2 input:nth-child(2){
-    background-color: chartreuse;
-    border-radius: 50%;
-    width:40px;
-    box-shadow: 2px 3px 2px chocolate;   
+.blogtext{
+   margin: 5%;
+   width: 100%;
 }
