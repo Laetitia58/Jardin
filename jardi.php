@@ -4,7 +4,7 @@
 $servname = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "Jardin";
+$dbname = "jardin";
 
 try {
     $BDD=new PDO("mysql:host=localhost;dbname=Jardin;charset=utf8", "root" );
