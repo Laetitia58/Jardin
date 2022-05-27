@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+  <title> Aujourd'hui? C'est Jardi! Mon blog</title>
+  <meta charset=" utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=5.0, minimum-scale=0.86"> 
+  <link rel="shortcut icon" href="favicon.ico">
+<!------------ ici relier Bootstrap: link + 3 scripts  !! NE PAS OUBLIER LES JAVASCRIPT EN FIN DE FICHIER AVANT /BODY---------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="blog.css">
+</head>
+
+<body class="body">
+
+<header id="header">      
+    <div class="ligne1">
+    <div class="loupe1">
+      <input type="search" placeholder="Que recherchez-vous?">  
+      <button><img src="images/loupe.PNG" style="width:1rem"></button>
+    </div>    
+    <div class="caddie">
+       <img src="images/caddie.PNG" style="width: 2.5rem">
+    </div>   
+    <div class="moncompte">
+        <button class="boton" type="submit" name="envoi">
+              <img src="images/compte.png" style="width: 3rem">
+              <p>Mon compte</p>          
+        </button>
+    </div>
+    </div>      
+    <div>
+      <h1 class="titulo"> 
+        <div class="centrercol"> Aujourd'hui ?      
+        </div>          
+            <div>            
+                <img class="image" src="/images/logo.gimb.PNG">             
+            </div> 
+        <div class="centrercol jard1"> C'est Jardi' !
+        </div>
+      </h1>  
+    </div>    
+    <div class="promo">
+    <div class="overlay-image"> 
+      <div class="card" style="width: 17.8rem;">
+        <div class="card-body carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+             <div class="carousel-item">
+              <img class="img-fluid" src="/images/mirabelles.jpg" style="width: 18rem ; height:10rem" alt="slide1 mirabelles">
+             </div>
+             <div class="carousel-item active">
+              <img class="img-fluid" src="/images/fraisier.jpg" style="width: 18rem ; height:10rem" alt="slide2 fraises">
+             </div>
+             <div class="carousel-item">
+              <img class="img-fluid" src="/images/pommes.jpg" style="width: 18rem ; height:10rem" alt="slide3 pommes">
+             </div>
+          </div>      
+        </div>
+      </div>
+      <div class="texto"> Aujourd'hui ? C'est promo ! </div>
+    </div>   
+    
+             <ul>
+                <li><a href="/catalogueJardin.html.html"> Vos plants </a></li>
+                <li><a href="/catalogueJardin.html.html"> Votre matériel </a></li>
+                <li><a href="/catalogueJardin.html.html"> Votre mobilier </a></li>
+            </ul>
+    
+    </div>    
+</header>
+
+<article class="blog" >
+<div class="blog1">
+        <div><img src="/images/fraisier.jpg" style="width:45rem"></div>
+        <div class="blogtext"  style="width:45rem"><h1> Aujourd'hui? C'est promo chez Jardi' ! </h1>
+    Quel que soit le moment de l'année, le temps est au jardin avec Jardi'. Votre supermarché Jardi' vous propose 
+    des produits de qualité et en plus d'un service tout compris, Jardi' vous conseille et vous accompagne pour 
+    au travers de toutes les saisons. Ainsi, vous pouvez profiter de votre jardin toute l'année: quel bonheur!  
+    Quel que soit le moment de l'année, le temps est au jardin avec Jardi'. Votre supermarché Jardi' vous propose 
+    des produits de qualité et en plus d'un service tout compris, Jardi' vous conseille et vous accompagne pour 
+    au travers de toutes les saisons. Ainsi, vous pouvez profiter de votre jardin toute l'année: quel bonheur! 
+        </div>
+<span> Avez-vous aimé cet article? </span> <div><button><img src="/images/like.PNG" style="width:5em" ></button><button><img src="/images/dislike.PNG" style="width:5em" ></button></div>
+</div>
+<div class="blog2">
+    <div><img src="/images/abeille.jpg"  style="width:45rem"></div>
+    <div class="blogtext" style="width:45rem"><h1> Agir pour la préservation des abeilles </h1>
+        L’abeille est un élément essentiel de notre écosystème. Pour la préserver, plusieurs solutions existent 
+        et chacun peut participer à son niveau à cet effort, sans pour autant devenir apiculteur. 
+        Voici quelques pistes :
+       -  Mangez plus de miel produit près de chez vous pour soutenir les apiculteurs de votre région
+       - Bannissez tout pesticide et herbicide de vos jardins, nocifs pour les abeilles
+       - Cultivez un jardin accueillant pour les abeilles
+       - Parrainez une ruche, vous aussi !
+    </div>
+<span> Avez-vous aimé cet article? </span> <div><button><img src="/images/like.PNG" style="width:5em" ></button><button><img src="/images/dislike.PNG" style="width:5em" ></button></div>
+</div>
+
+<div class="blog3">
+    <div><img src="/images/foret.jpg"  style="width:45rem"></div>
+    <div class="blogtext"  style="width:45rem" ><h1> La gestion durable des forêts, c’est quoi ? </h1>
+    Pour bien gérer une forêt, il faut en prendre soin, lui laisser le temps de pousser, replanter, préserver 
+    les animaux qui y vivent ainsi que l’ensemble de l’écosystème. Le respect de la biodiversité représente tout 
+    un art, mais un art réglementé ! En 1993, la Conférence d’Helsinki a défini un cadre qui indique comment doit 
+    être gérée une forêt pour être durable. La Conférence a ainsi défini 6 grands critères que l’on peut résumer en 
+    ces 6 actions :
+    - Lui laisser le temps de se renouveler et de croître pour qu’elle continue à stocker le CO2.
+    - Protéger la santé de la forêt et la vitalité des arbres et des écosystèmes forestiers
+    - Maintenir et encourager les fonctions productrices de la forêt (le bois et les autres produits)
+    - Protéger la biodiversité qui vit dans les forêts (animaux, plantes, insectes, etc.).
+    - S’assurer du bon état des sols ou des eaux des écosystèmes forestiers.
+    - Préserver les fonctions socio-économiques de la forêt.
+    </div>
+<span> Avez-vous aimé cet article? </span> <div><button><img src="/images/like.PNG" style="width:5em" ></button><button><img src="/images/dislike.PNG" style="width:5em" ></button></div>
+</div>
+
+
+
+
+</article>
+</body>
+</html>
