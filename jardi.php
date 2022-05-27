@@ -36,7 +36,6 @@ catch (PDOException $e) {echo "erreur :" . $e->getMessage();
 <header id="header">  
 
 <div class="ligne1">
-
 <div class="loupe1">
   <input type="search" placeholder="Que recherchez-vous?">  
   <button><img src="images/loupe.PNG" style="width:1rem"></button>
@@ -64,26 +63,36 @@ catch (PDOException $e) {echo "erreur :" . $e->getMessage();
     <div class="centrercol jard1"> C'est Jardi' !
     </div>
   </h1>  
+</div>
 
-<div id="promo">
-Aujourd'hui ? C'est promo !  // UTILISER EVENT ONCLICK JAVASCRIPT POUR CHANGER D IMAGE AU CLICK
-OU UTILISER UNE GALERIE CSS??? SI PAS TROP GROS??? ---> TENTER PLACER NAVIGATEUR A DROITE CADRE)
+<div class="promo">
+<div class="overlay-image"> 
+  <div class="card" style="width: 17.8rem;">
+    <div class="card-body carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/mirabelles.jpg" style="width: 18rem ; height:10rem" alt="slide1 mirabelles">
+         </div>
+         <div class="carousel-item active">
+          <img class="img-fluid" src="/images/fraisier.jpg" style="width: 18rem ; height:10rem" alt="slide2 fraises">
+         </div>
+         <div class="carousel-item">
+          <img class="img-fluid" src="/images/pommes.jpg" style="width: 18rem ; height:10rem" alt="slide3 pommes">
+         </div>
+      </div>      
+    </div>
+  </div>
+  <div class="texto"> Aujourd'hui ? C'est promo ! </div>
+</div>   
 
-       <a href="/jardi.htlm/images/fraisier.jpg"><img src="/images/mirabelles.jpg" style="width: 15rem ; height:15rem"></a>
-        
-        
-       <a href="jardin/jardi.htlm/jardi.htlm/images/pommes.jpg"><img src="/images/fraisier.jpg" style="width: 15rem ; height:15rem"></a>
-        
-       
-       <a href="jardin/jardi.htlm/images/mirabelles.jpg"><img src="/images/pommes.jpg" style="width: 15rem ; height:15rem"></a>
-      
-</div>  
-        <ul>
+         <ul>
             <li><a href="/catalogueJardin.html.html"> Vos plants </a></li>
             <li><a href="/catalogueJardin.html.html"> Votre matériel </a></li>
             <li><a href="/catalogueJardin.html.html"> Votre mobilier </a></li>
         </ul>
-</div>  
+
+</div>
+
 </header>
 
 <article class="articlebody">
@@ -99,13 +108,13 @@ OU UTILISER UNE GALERIE CSS??? SI PAS TROP GROS??? ---> TENTER PLACER NAVIGATEUR
       <div class="card-body carousel slide" data-ride="carousel">
         <div class="carousel-inner">
            <div class="carousel-item">
-            <img class="img-fluid" src="/images/artichaud.jpg" style="width: 15rem ; height:15rem" alt="slide1 artichaud">
+            <img class="img-fluid" src="/images/artichaud.jpg" style="width: 17rem ; height:17rem" alt="slide1 artichaud">
            </div>
            <div class="carousel-item active">
-            <img class="img-fluid" src="/images/cossePpois.jpg" style="width: 15rem ; height:15rem" alt="slide2 petits_pois">
+            <img class="img-fluid" src="/images/cossePpois.jpg" style="width: 17rem ; height:17rem" alt="slide2 petits_pois">
            </div>
            <div class="carousel-item">
-            <img class="img-fluid" src="/images/tomates.jpg" style="width: 15rem ; height:15rem" alt="slide3 tomates">
+            <img class="img-fluid" src="/images/tomates.jpg" style="width: 17rem ; height:17rem" alt="slide3 tomates">
            </div>
         </div>      
       </div>
@@ -307,26 +316,36 @@ OU UTILISER UNE GALERIE CSS??? SI PAS TROP GROS??? ---> TENTER PLACER NAVIGATEUR
 <div class="footer2">
   <div>
     <ul>
-      <li><a href="/catalogueJardin.html.html"> CG</a></li>
-      <li><a href="/catalogueJardin.html.html"> Mentions légales</a></li>
-      <li><a href="/catalogueJardin.html.html"> Politique de Confidentialité</a></li>
-      <li><a href="/catalogueJardin.html.html"> Paiement sécurisé CB mastercard visa</a></li>
+      <li><a onclick="alert('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.')"> CG </a></li>
+      <li><a onclick="alert('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.')"> Mentions légales </a></li>
+      <li><a onclick="alert('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.')"> Politique de Confidentialité </a></li>
+      <li><a href="#"> Paiement sécurisé <img src="/images/CB_mast_visa.png" style="width: 3rem ; height:2rem" ></a></li>
     </ul>  
   </div>
   <div>
     <ul>
-      <li><a href="/catalogueJardin.html.html"> Contactez-nous par mail</a></li>
-      <li><a href="/catalogueJardin.html.html"> Service client à votre écoute 06 00 00 00 00 <br>
-        Disponible du lundi au vendredi de 9h30 à 19h30 <br>Appel non surtaxé</a></li>
-      <li><a href="/catalogueJardin.html.html"> Suivez-nous sur les réseaux sociaux twitter instagram</a></li>
+      <li><a href="formulairejardi.php"> Contactez-nous par mail </a></li>
+      <li><a href="#"> Service client à votre écoute au 06 00 00 00 00 <br>
+        du lundi au vendredi de 9h30 à 19h30 <br> Appel non surtaxé </a></li>
+      <li><a href="#"> Suivez-nous  &nbsp </a> <a href="#"><img src="/images/twitter.png" style="width: 2em ; height:1.5rem"></a> <a href="#"> &nbsp <img src="/images/instagram.jpg" style="width: 2rem ; height:2rem"></a> </li>
     </ul>
   </div>
   <div>
     <ul>
-      <li><a href="/catalogueJardin.html.html">Newsletter<input> Saisissez votre adresse ok <span><br>
-        Je souhaite recevoir les offres 
-        exclusives et les actualités de <br>Jardi'.com</span></a></li>
-      <li><a href="/catalogueJardin.html.html">Blog</a></li>
+      <li>
+          <div class="optin-container">
+          <div> Je m'inscris à ma Newsletter </div>
+            <form class="form hidden">
+              <input type="email" id="email" name="email" placeholder="exemple@gmail.com" />
+              <input type="submit" value="Ok" />
+            </form> 
+          </div>
+        <a href="/catalogueJardin.htlm.htlm"> <span style="font-style:oblique" > Je souhaite recevoir les offres exclusives et les actualités de 
+            <br> Jardi'.com </span>
+        </a>
+      </li>    
+      <li><a href="/catalogueJardin.html.html"> Blog </a>
+      </li>
     </ul>
   </div>
 </div>
